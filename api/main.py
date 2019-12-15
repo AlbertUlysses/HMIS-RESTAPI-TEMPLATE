@@ -1,5 +1,5 @@
-""" The main.py file is where we initialize the flask application,
-the database, marshamallow library and where we register our api blueprints."""
+""" The main.py file initializes the flask application,
+the database, marshamallow library and registers api blueprints."""
 from flask import Flask 
 from config import Config
 from models.sqlalchemy.models import db, ma
